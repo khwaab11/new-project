@@ -1,0 +1,246 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<router-outlet></router-outlet>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <a class="navbar-brand" href="#">E-Commerece</a>
+  <div class="container-fluid px-10">
+    <div class="row w-100">
+      <div class="col-2">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarColor03"
+          aria-controls="navbarColor03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          (click)="isShown = !isShown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="col-10">
+        <div
+          class="collapse justify-content-end navbar-collapse"
+          [ngClass]="{ show: isShown }"
+          id="navbarTogglerDemo03"
+        >
+          <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a routerLink="/customers" routerLinkActive="active">Products</a>
+            </li>
+
+            <li class="nav-item">
+              <button class="fa fa-fw fa-home" type="button"></button>
+            </li>
+            <li class="nav-item">
+              <button
+                class="fa fa-bars"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarColor03"
+                aria-controls="navbarColor03"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                (click)="isShown = !isShown"
+              ></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <h1>Welcome to E-Commerece Website</h1>
+  </div>
+
+  <br />
+
+  <h2>Take a look at our different products..</h2>
+  <h5>Grab the best deals quickly</h5>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">iPhone 9</h5>
+          <p class="card-text">Smartphones</p>
+        </div>
+        <img
+          src="https://dummyimage.com/600x400/000/fff.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <a href="#!" class="btn btn-primary">Details</a>
+          <a href="#!" class="btn btn-primary m-2">Share</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">iPhone X</h5>
+          <p class="card-text">Smartphones</p>
+        </div>
+        <img
+          src="https://dummyimage.com/600x400/000/fff.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <a href="#!" class="btn btn-primary">Details</a>
+          <a href="#!" class="btn btn-primary m-2">Share</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Samasung Universe</h5>
+          <p class="card-text">Smartphones</p>
+        </div>
+        <img
+          src="https://dummyimage.com/600x400/000/fff.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <a href="#!" class="btn btn-primary">Details</a>
+          <a href="#!" class="btn btn-primary m-2">Share</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">OPPOF 19</h5>
+          <p class="card-text">Smartphones</p>
+        </div>
+        <img
+          src="https://dummyimage.com/600x400/000/fff.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <a href="#!" class="btn btn-primary">Details</a>
+          <a href="#!" class="btn btn-primary m-2">Share</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Smartphones</p>
+        </div>
+        <img
+          src="https://dummyimage.com/600x400/000/fff.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <a href="#!" class="btn btn-primary">Details</a>
+          <a href="#!" class="btn btn-primary m-2">Share</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Smartphones</p>
+        </div>
+        <img
+          src="https://dummyimage.com/600x400/000/fff.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <a href="#!" class="btn btn-primary">Details</a>
+          <a href="#!" class="btn btn-primary m-2">Share</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Smartphones</p>
+        </div>
+        <img
+          src="https://dummyimage.com/600x400/000/fff.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <a href="#!" class="btn btn-primary">Details</a>
+          <a href="#!" class="btn btn-primary m-2">Share</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Smartphones</p>
+        </div>
+        <img
+          src="https://dummyimage.com/600x400/000/fff.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+          <a href="#!" class="btn btn-primary">Details</a>
+          <a href="#!" class="btn btn-primary m-2">Share</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

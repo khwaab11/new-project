@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+  float:left;
+}
+
+ul li:last-of-type {
+  float:none;
+}
+
+ul li a {
+  padding: 10px;
+  text-decoration: none;
+  font-family: Lato;
+}
+
+.active{
+  color: red;
+}
